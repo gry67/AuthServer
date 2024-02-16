@@ -3,21 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33717.318
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GryAuthServer.API", "GryAuthServer.API\GryAuthServer.API.csproj", "{EAAC2655-8196-49B1-9B36-0EFD812796FC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GryAuthServer.API", "GryAuthServer.API\GryAuthServer.API.csproj", "{EAAC2655-8196-49B1-9B36-0EFD812796FC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GryAuthServer.Core", "GryAuthServer.Core\GryAuthServer.Core.csproj", "{B4D5E2B4-1CE6-424B-B4F3-44050B0CBAA2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GryAuthServer.Core", "GryAuthServer.Core\GryAuthServer.Core.csproj", "{B4D5E2B4-1CE6-424B-B4F3-44050B0CBAA2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GryAuthServer.Data", "GryAuthServer.Data\GryAuthServer.Data.csproj", "{09086D5C-3971-4601-A12D-0E43D47D05FE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GryAuthServer.Data", "GryAuthServer.Data\GryAuthServer.Data.csproj", "{09086D5C-3971-4601-A12D-0E43D47D05FE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GryAuthServer.Service", "GryAuthServer.Service\GryAuthServer.Service.csproj", "{1AE03DE6-DAC5-414D-90A0-6ED997A08F39}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GryAuthServer.Service", "GryAuthServer.Service\GryAuthServer.Service.csproj", "{1AE03DE6-DAC5-414D-90A0-6ED997A08F39}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniApp1.API", "MiniApp1.API\MiniApp1.API.csproj", "{30E1143E-4886-42E6-8C2B-EF967330ECBC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MiniApp1.API", "MiniApp1.API\MiniApp1.API.csproj", "{30E1143E-4886-42E6-8C2B-EF967330ECBC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniApp2.API", "MiniApp2.API\MiniApp2.API.csproj", "{2313A22B-0B39-484B-B276-BE1861D1F7C9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MiniApp2.API", "MiniApp2.API\MiniApp2.API.csproj", "{2313A22B-0B39-484B-B276-BE1861D1F7C9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniApp3.API", "MiniApp3.API\MiniApp3.API.csproj", "{29E60DC9-57CC-4729-83B1-335DDA3803A7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SharedLibrary", "SharedLibrary\SharedLibrary.csproj", "{9989F17C-5603-454E-8D58-6EAA39AF680F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharedLibrary", "SharedLibrary\SharedLibrary.csproj", "{9989F17C-5603-454E-8D58-6EAA39AF680F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniApp3.API", "MiniApp3.API\MiniApp3.API.csproj", "{99550BEB-0E2F-4CAC-811A-42A2071A4F29}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -49,14 +49,14 @@ Global
 		{2313A22B-0B39-484B-B276-BE1861D1F7C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2313A22B-0B39-484B-B276-BE1861D1F7C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2313A22B-0B39-484B-B276-BE1861D1F7C9}.Release|Any CPU.Build.0 = Release|Any CPU
-		{29E60DC9-57CC-4729-83B1-335DDA3803A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{29E60DC9-57CC-4729-83B1-335DDA3803A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{29E60DC9-57CC-4729-83B1-335DDA3803A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{29E60DC9-57CC-4729-83B1-335DDA3803A7}.Release|Any CPU.Build.0 = Release|Any CPU
 		{9989F17C-5603-454E-8D58-6EAA39AF680F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{9989F17C-5603-454E-8D58-6EAA39AF680F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9989F17C-5603-454E-8D58-6EAA39AF680F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9989F17C-5603-454E-8D58-6EAA39AF680F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99550BEB-0E2F-4CAC-811A-42A2071A4F29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99550BEB-0E2F-4CAC-811A-42A2071A4F29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99550BEB-0E2F-4CAC-811A-42A2071A4F29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99550BEB-0E2F-4CAC-811A-42A2071A4F29}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
